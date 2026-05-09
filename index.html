@@ -13,17 +13,23 @@
       height: 100%;
     }
 
-    #container {
-      width: 100vw;
-      height: 100vh;
-      overflow: auto;
-      cursor: grab;
-    }
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background: black;
+}
 
-    img {
-      width: 5000px;
-      display: block;
-    }
+img {
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
   </style>
 </head>
 
